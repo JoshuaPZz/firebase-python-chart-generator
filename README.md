@@ -1,4 +1,4 @@
-# Nombre_De_Tu_Repositorio
+# firebase-python-chart-generator
 
 Una función de Firebase Cloud escrita en Python que acepta datos de salud (calorías quemadas) a través de una solicitud HTTP POST y genera dinámicamente un gráfico JPG visualizando la quema de calorías a lo largo del tiempo utilizando las bibliotecas Matplotlib y Pandas.
 
