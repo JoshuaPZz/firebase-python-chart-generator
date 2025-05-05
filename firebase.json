@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "source": "functions",
+    "ignore": [
+      "venv",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log"
+    ]
+  }
+}

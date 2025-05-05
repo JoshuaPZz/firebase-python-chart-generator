@@ -1,0 +1,31 @@
+# Ignorar el entorno virtual de Python dentro de la carpeta functions
+functions/venv/
+
+# Ignorar los archivos de caché de Python dentro de la carpeta functions
+functions/__pycache__/
+
+# Ignorar el entorno virtual de Python en la raíz si lo tuvieras ahí (menos común para funciones)
+venv/
+
+# Ignorar archivos de caché de Python en la raíz si los tuvieras ahí
+__pycache__/
+
+# Ignorar archivo de variables de entorno (si lo usas para secretos)
+.env
+
+# Ignorar archivos locales específicos (como los que mencionaste con *.local)
+*.local
+
+# Ignorar archivos de log o de depuración
+*.log
+npm-debug.log* # Si también usas algo de Node.js
+
+# Ignorar configuraciones comunes de editores/IDEs
+.vscode/
+.idea/
+*.iml
+.DS_Store # Específico de macOS
+
+# Ignorar archivos de build o temporales que puedan generarse
+dist/
+build/
